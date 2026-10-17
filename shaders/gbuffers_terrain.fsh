@@ -29,5 +29,5 @@ void main() {
         fog
     );
 
-    gl_FragColor = texColor;
+    gl_FragData[0] = texColor;
 }
